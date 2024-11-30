@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.promo {
+    background: rgb(241, 177, 239);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.promo h1 {
+    font-size: 36px;
+}
+
+.promo p {
+    font-size: 18px;
+}
+
+
+.profil {
+    padding: 40px;
+    background:rgb(241, 177, 239);
+}
+
+.profil-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.harga table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.harga th, .harga td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form form input, .form form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.login form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.login form input {
+    width: 100%;
+    padding: 10px;
+   margin-bottom: 20px;
+}
+#rsvp {
+    background-color: rgb(241, 177, 239);
+    padding: 10px;
+    text-align: center;
+   
+}
+    
+
+
+.social {
+    text-align: center;
+    padding: 20px 0;
+    background: #a9e2e9;
+}
+
+.social a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.slider {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #a9e2e9;
+}
+
+.slider-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.slider-container img {
+    max-width:20% ;
+    margin-right: 5px;
+    background-color: #a9e2e9;
+    
+}
+
+
+.developer {
+    text-align: center;
+    padding: 20px 0;
+    background: #a9e2e9;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color:aliceblue;
+}
